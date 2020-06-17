@@ -1,0 +1,23 @@
+{
+	"name": "HavaDurumu",
+	"description": "Seçilen konuma göre hava durumu bilgilendirmesi",
+	"version": "0.0.3",
+	"manifest_version": 2,
+	"icons": {
+		"16": "icons/03d.png",
+        "48": "icons/03d.png",
+        "128": "icons/03d.png"
+	},
+	"browser_action":{
+		"default_icon": {
+            "19": "icons/03d.png",
+            "38": "icons/03d.png"
+        },
+		"default_popup": "popup.html",
+		"default_title": "Hava Durumu"
+	},
+	"options_page": "options.html",
+	"permissions": [
+		"http://api.openweathermap.org/data/2.5/*"
+	]
+}
